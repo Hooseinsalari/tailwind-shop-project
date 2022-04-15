@@ -154,9 +154,7 @@
       class="md:px-4 lg:px-6 mb-4 container mx-auto max-w-screen-2xl grid grid-cols-12 grid-rows-[55px_minmax(500px,_1fr)] md:gap-4"
     >
       <!-- sidebar -->
-      <div
-        class="hidden md:block col-span-4 lg:col-span-3 xl:col-span-2 row-span-2"
-      >
+      <div class="hidden md:block col-span-4 lg:col-span-3 xl:col-span-2 row-span-2">
         <div
           class="bg-white p-4 rounded-xl max-h-[calc(100vh_-_120px)] sticky top-24 overflow-auto"
         >
@@ -250,7 +248,7 @@
       </div>
       <!-- sort section -->
       <div class="hidden md:block col-span-8 lg:col-span-9 xl:col-span-10 ">
-        <div class="bg-white flex items-center gap-x-2 p-3 rounded-lg shadow-sm">
+        <div class="bg-white flex items-center gap-x-2 p-4 rounded-lg shadow-sm">
           <span class="text-orange-500">تلفن همراه</span>
           <span class="stroke-slate-800">
               <svg width="7" height="10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -268,14 +266,11 @@
       </div>
       <!-- product section -->
       <div class="col-span-12 md:col-span-8 lg:col-span-9 xl:col-span-10 md:px-0">
-        <div class="flex justify-center md:bg-white rounded-xl md:shadow-xl px-4">
+        <div class="flex justify-center flex-col lg:flex-row md:bg-white rounded-xl md:shadow-xl px-4">
           <!-- single product -->
-          <div class="flex flex-col  items-center mt-6 md:flex-auto md:flex-row md:justify-start md:items-start">
-            <div class="mb-11">
-              <img class="w-56 h-72" src="../assets/img/apple-phone.png" alt="productImage">
-              <div>
-
-              </div>
+          <div class="flex flex-col  items-center mt-6 md:flex-auto lg:flex-row md:justify-start md:items-start">
+            <div class="mb-11 w-56">
+              <img src="../assets/img/Single Product/Gallery.png" alt="productImage">
             </div>
             <div class="md:mr-6">
               <div class="hidden md:flex items-center gap-x-4 justify-start w-full mb-3">
@@ -283,8 +278,8 @@
                 <p class="text-orange-500">تلفن‌همراه اپل</p>
               </div>
               <div class="flex text-center flex-col mb-11 md:text-right">
-                <p class="text-slate-800 text-2xl mb-1 md:text-2xl md:font-medium">گوشی آیفون ۱۳ ۱۲۸ گیگابایت</p>
-                <p class="text-gray-500 text-lg md:text-xl">Apple Iphone 13 128GB</p>
+                <p class="text-slate-800 text-xl mb-1 md:text-2xl md:font-medium">گوشی آیفون ۱۳ ۱۲۸ گیگابایت</p>
+                <p class="text-gray-500 text-lg md:text-lg">Apple Iphone 13 128GB</p>
               </div>
               <hr class="hidden md:block mb-7">
               <!-- circle -->
@@ -356,33 +351,8 @@
                   </div>
                 </div>
               </div>
-              <!-- product detail -->
-              <div class="text-slate-800 font-bold flex gap-y-1 flex-col">
-                <h2 class="mb-4 text-2xl">ویژگی‌های کالا:</h2>
-                <div class="mb-1">
-                  <div class="flex items-center">
-                    <svg width="9" height="9" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="4.5" cy="4.5" r="4.5" fill="#FF755C"/></svg>
-                    <span class="text-slate-800 font-light mr-2">حافظه داخلی:</span>
-                  </div>
-                  <span class="mr-4">۱۲۸ گیگابایت</span>
-                </div>
-                <div class="mb-1">
-                  <div class="flex items-center">
-                    <svg width="9" height="9" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="4.5" cy="4.5" r="4.5" fill="#FF755C"/></svg>
-                    <span class="text-slate-800 font-light mr-2">بازه‌ی اندازه صفحه نمایش:</span>
-                  </div>
-                  <span class="mr-4">0.6 اینچ و بزرگتر</span>
-                </div>
-                <div class="mb-1">
-                  <div class="flex items-center">
-                    <svg width="9" height="9" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="4.5" cy="4.5" r="4.5" fill="#FF755C"/></svg>
-                    <span class="text-slate-800 font-light mr-2">شبکه‌های ارتباطی:</span>
-                  </div>
-                  <span class="mr-4 tracking-widest">2G 3G 4G 5G</span>
-                </div>
-              </div>
               <!-- seller detail -->
-              <div class="flex flex-wrap items-center justify-center gap-3 md:hidden">
+              <div class="flex flex-wrap items-center justify-center gap-3 md:hidden my-8">
                 <div class="flex items-center text-slate-800">
                   <div class="flex items-center">
                     <span>
@@ -413,6 +383,31 @@
                   <div class="mr-2">
                     <span class="font-light">انبار تهران</span>
                   </div>
+                </div>
+              </div>
+              <!-- product detail -->
+              <div class="text-slate-800 font-bold flex gap-y-1 flex-col bg-white p-4 rounded-xl md:bg-none md:p-0">
+                <h2 class="mb-4 text-xl">ویژگی‌های کالا:</h2>
+                <div class="mb-1">
+                  <div class="flex items-center">
+                    <svg width="9" height="9" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="4.5" cy="4.5" r="4.5" fill="#FF755C"/></svg>
+                    <span class="text-slate-800 font-light mr-2">حافظه داخلی:</span>
+                  </div>
+                  <span class="mr-4">۱۲۸ گیگابایت</span>
+                </div>
+                <div class="mb-1">
+                  <div class="flex items-center">
+                    <svg width="9" height="9" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="4.5" cy="4.5" r="4.5" fill="#FF755C"/></svg>
+                    <span class="text-slate-800 font-light mr-2">بازه‌ی اندازه صفحه نمایش:</span>
+                  </div>
+                  <span class="mr-4">0.6 اینچ و بزرگتر</span>
+                </div>
+                <div class="mb-1">
+                  <div class="flex items-center">
+                    <svg width="9" height="9" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="4.5" cy="4.5" r="4.5" fill="#FF755C"/></svg>
+                    <span class="text-slate-800 font-light mr-2">شبکه‌های ارتباطی:</span>
+                  </div>
+                  <span class="mr-4 tracking-widest">2G 3G 4G 5G</span>
                 </div>
               </div>
             </div>
