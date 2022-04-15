@@ -7,7 +7,7 @@
     <title>Digitize App - Shop</title>
     <link rel="stylesheet" href="./build/tailwind.css" />
   </head>
-  <body class="bg-gray-200">
+  <body class="bg-gray-100">
     <!-- app bar -->
     <div class="md:hidden flex items-center justify-between mt-10 px-4 mb-5">
       <div
@@ -107,7 +107,7 @@
           </li>
         </ul>
         <div class="flex-1 max-w-2xl">
-          <div class="flex items-center bg-gray-200 rounded-md shadow-sm ml-3">
+          <div class="flex items-center bg-gray-100 rounded-md shadow-md ml-3">
             <span class="mr-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -386,7 +386,7 @@
                 </div>
               </div>
               <!-- product detail -->
-              <div class="text-slate-800 font-bold flex gap-y-1 flex-col bg-white p-4 rounded-xl md:bg-none md:p-0">
+              <div class="text-slate-800 font-bold flex gap-y-1 flex-col bg-white p-4 rounded-xl md:bg-none md:p-0 mb-4">
                 <h2 class="mb-4 text-xl">ویژگی‌های کالا:</h2>
                 <div class="mb-1">
                   <div class="flex items-center">
@@ -410,11 +410,62 @@
                   <span class="mr-4 tracking-widest">2G 3G 4G 5G</span>
                 </div>
               </div>
+              <!-- add to card section -->
+              <div class="flex items-center justify-between px-4 py-2 bg-white md:hidden rounded-md">
+                <div class="w-full">
+                  <button class="bg-orange-600 w-3/4 p-2 rounded-md text-xl text-stone-50">اضافه به سبد خرید</button>
+                </div>
+                <div class="text-slate-800">
+                  <span class="text-2xl ">۲۸,۲۵۰,۰۰۰</span>
+                  <span class="text-lg">تومان</span>
+                </div>
+              </div>
             </div>
           </div>
           <!-- seller detail -->
-          <div class="w-1/4  bg-red-300 hidden md:block">
-            
+          <div class="lg:w-1/3 xl:w-1/4 hidden md:block">
+            <div class="bg-gray-100 rounded-lg p-3">
+              <div class="text-lg">
+                <div class="flex items-center flex-wrap text-slate-800 my-4">
+                  <div class="flex items-center">
+                    <span>
+                      <svg width="20" height="19" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="8" r="8" fill="#E2E2E2"/><path d="M1.7559 11.5449v2.6192c0 2.6192 1.05 3.6692 3.6691 3.6692h3.1442c2.6192 0 3.6692-1.05 3.6692-3.6692v-2.6192" stroke="#222F5D" stroke-width=".875" stroke-linecap="round" stroke-linejoin="round"/><path d="M7.0001 11.9993c1.0675 0 1.855-.8691 1.75-1.9366l-.385-3.8967H5.641L5.25 10.0627c-.105 1.0675.6825 1.9366 1.75 1.9366Z" stroke="#222F5D" stroke-width=".875" stroke-linecap="round" stroke-linejoin="round"/><path d="M10.681 11.9993c1.1783 0 2.0416-.9566 1.925-2.1291l-.1634-1.6042c-.21-1.5167-.7933-2.1-2.3216-2.1H8.3418l.4083 4.0892c.0992.9625.9684 1.7441 1.9309 1.7441ZM3.29 11.9993c.9626 0 1.8317-.7816 1.925-1.7441l.1284-1.2892.28-2.8H3.8442c-1.5283 0-2.1117.5833-2.3216 2.1L1.365 9.8702c-.1167 1.1725.7466 2.1291 1.925 2.1291ZM7.0003 14.916c-.9741 0-1.4583.4842-1.4583 1.4583v1.4584h2.9167v-1.4584c0-.9741-.4842-1.4583-1.4584-1.4583Z" stroke="#222F5D" stroke-width=".875" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </span>
+                    <span class="mr-1 font-medium text-slate-800"> فروشنده: </span>
+                  </div>
+                  <div class="mr-2">
+                    <span class="font-light">دیجی‌تایز</span>
+                  </div>
+                </div>
+                <div class="flex items-center flex-wrap text-slate-800 my-4">
+                  <div class="flex items-center">
+                    <span>
+                      <svg width="21" height="19" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="13" cy="8" r="8" fill="#E2E2E2"/><path d="M7.4305 3.5797 3.896 4.9114c-.8145.3046-1.4804 1.268-1.4804 2.132v5.263c0 .8358.5525 1.9337 1.2254 2.4367l3.0459 2.2737c.9987.7508 2.642.7508 3.6408 0l3.0458-2.2737c.673-.503 1.2255-1.6009 1.2255-2.4367v-5.263c0-.8712-.6659-1.8345-1.4805-2.139L9.5839 3.5796c-.6021-.2196-1.5655-.2196-2.1534 0Z" stroke="#222F5D" stroke-width="1.0625" stroke-linecap="round" stroke-linejoin="round"/></svg>            </span>
+                    <span class="mr-1 font-medium text-slate-800"> گارانتی: </span>
+                  </div>
+                  <div class="mr-2">
+                    <span class="font-light">زرین خدمت</span>
+                  </div>
+                </div>
+                <div class="flex items-center flex-wrap text-slate-800 my-4">
+                  <div class="flex items-center">
+                    <span>
+                      <svg width="20" height="21" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="8" r="8" fill="#E2E2E2"/><path d="M10.0002 6.333v6.6667c0 .7333-.6 1.3333-1.3334 1.3333H1.3335v-4.2533c.4867.58 1.2334.94 2.06.92.6733-.0134 1.28-.2734 1.7333-.7067.2067-.1733.38-.3933.5134-.6333.24-.4067.3733-.8867.36-1.3867-.02-.78-.3667-1.4667-.9067-1.94h4.9067Z" stroke="#222F5D" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/><path d="M14.6668 14.333v2c0 1.1067-.8933 2-2 2h-.6666c0-.7333-.6-1.3333-1.3334-1.3333-.7333 0-1.3333.6-1.3333 1.3333H6.6668c0-.7333-.6-1.3333-1.3333-1.3333s-1.3333.6-1.3333 1.3333h-.6667c-1.1067 0-2-.8933-2-2v-2h7.3333c.7334 0 1.3334-.6 1.3334-1.3333V8.333h1.2266c.48 0 .92.26 1.16.6733l1.14 1.9934h-.86c-.3666 0-.6666.3-.6666.6666v2c0 .3667.3.6667.6666.6667h2Z" stroke="#222F5D" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/><path d="M5.3333 19.6667c.7364 0 1.3334-.597 1.3334-1.3334 0-.7363-.597-1.3333-1.3334-1.3333C4.597 17 4 17.597 4 18.3333c0 .7364.597 1.3334 1.3333 1.3334ZM10.6668 19.6667c.7364 0 1.3334-.597 1.3334-1.3334 0-.7363-.597-1.3333-1.3334-1.3333-.7363 0-1.3333.597-1.3333 1.3333 0 .7364.597 1.3334 1.3333 1.3334ZM14.6667 13v1.3333h-2c-.3667 0-.6667-.3-.6667-.6666v-2c0-.3667.3-.6667.6667-.6667h.86l1.14 2Z" stroke="#222F5D" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/><path d="M6.0003 8.3327c0 .8-.3533 1.5133-.9066 2-.4734.4133-1.0867.6666-1.76.6666C1.8603 10.9993.667 9.806.667 8.3327c0-.84.3867-1.5934 1-2.08.46-.3667 1.04-.5867 1.6667-.5867 1.4733 0 2.6666 1.1933 2.6666 2.6667Z" stroke="#222F5D" stroke-width="1.125" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M3.5003 7.499v1l-.8333.5" stroke="#222F5D" stroke-width="1.125" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/></svg>            </span>
+                    <span class="mr-1 font-medium text-slate-800"> ارسال توسط: </span>
+                  </div>
+                  <div class="mr-2">
+                    <span class="font-light">انبار تهران</span>
+                  </div>
+                </div>
+              </div>
+              <div class="flex md:flex-col justify-between  md:mt-16">
+                <div class="text-left text-orange-600">
+                  <span class="text-2xl ">۲۸,۲۵۰,۰۰۰</span>
+                  <span class="text-lg">تومان</span>
+                </div>
+                <button class="bg-orange-600 py-3 rounded-md text-xl text-stone-50">اضافه به سبد خرید</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
